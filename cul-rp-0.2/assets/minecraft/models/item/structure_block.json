@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/structure_block",
+  "overrides": [
+	{ "predicate": { "custom_model_data": 8520000 }, "model": "cul:item/raw_pasta" },
+	{ "predicate": { "custom_model_data": 8520001 }, "model": "cul:item/lobster" },
+	{ "predicate": { "custom_model_data": 8520002 }, "model": "cul:item/blue_lobster" },
+	{ "predicate": { "custom_model_data": 8520003 }, "model": "cul:item/oil" },
+	{ "predicate": { "custom_model_data": 8520004 }, "model": "cul:item/spruce_spice" },
+	{ "predicate": { "custom_model_data": 8520005 }, "model": "cul:item/acacia_gum" }
+  ]
+}

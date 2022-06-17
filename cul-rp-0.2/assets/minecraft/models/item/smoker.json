@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/smoker",
+  "overrides": [
+	{ "predicate": { "custom_model_data": 8520000 }, "model": "cul:item/pot" },
+	{ "predicate": { "custom_model_data": 8520001 }, "model": "cul:item/terracotta_pot" },
+	{ "predicate": { "custom_model_data": 8520002 }, "model": "cul:item/gold_pot" }
+  ]
+}

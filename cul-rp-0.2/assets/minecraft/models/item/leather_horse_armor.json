@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/leather_horse_armor"
+              },
+  "overrides": [
+	{ "predicate": { "custom_model_data": 8520000 }, "model": "cul:block/pot_empty" },
+	{ "predicate": { "custom_model_data": 8520001 }, "model": "cul:block/pot" },
+	{ "predicate": { "custom_model_data": 8520002 }, "model": "cul:block/pot_hanging_empty" },
+	{ "predicate": { "custom_model_data": 8520003 }, "model": "cul:block/pot_hanging" },
+	{ "predicate": { "custom_model_data": 8520004 }, "model": "cul:block/pot_items/beetroot_soup" },
+	{ "predicate": { "custom_model_data": 8520005 }, "model": "cul:block/pot_items/potato_soup" },
+	{ "predicate": { "custom_model_data": 8520006 }, "model": "cul:block/pot_items/vegetable_soup_beetroot" },
+	{ "predicate": { "custom_model_data": 8520007 }, "model": "cul:block/pot_items/vegetable_soup_potato" },
+	{ "predicate": { "custom_model_data": 8520008 }, "model": "cul:block/pot_items/noodle_soup" },
+	{ "predicate": { "custom_model_data": 8520009 }, "model": "cul:block/pot_items/mushroom_stew" },
+	{ "predicate": { "custom_model_data": 8520010 }, "model": "cul:block/pot_items/beef_stew" },
+	{ "predicate": { "custom_model_data": 8520011 }, "model": "cul:block/pot_items/kelp_mush" },
+	{ "predicate": { "custom_model_data": 8520012 }, "model": "cul:block/pot_items/fish_stew" },
+	{ "predicate": { "custom_model_data": 8520013 }, "model": "cul:block/pot_items/lobster_stew" },
+	{ "predicate": { "custom_model_data": 8520014 }, "model": "cul:block/pot_items/rabbit_stew" },
+	{ "predicate": { "custom_model_data": 8520015 }, "model": "cul:block/terracotta_pot_empty" },
+	{ "predicate": { "custom_model_data": 8520016 }, "model": "cul:block/terracotta_pot" },
+	{ "predicate": { "custom_model_data": 8520017 }, "model": "cul:block/gold_pot_empty" },
+	{ "predicate": { "custom_model_data": 8520018 }, "model": "cul:block/gold_pot" }
+  ]
+}

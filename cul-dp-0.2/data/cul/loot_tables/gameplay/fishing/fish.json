@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 80,
+          "name": "minecraft:gameplay/fishing/fish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 45,
+          "quality": 1,
+          "name": "cul:item/lobster",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "cul:world/biome/tropical"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "quality": 3,
+          "name": "cul:item/blue_lobster",
+          "conditions": [
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 23000,
+                "max": 24000
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:reference",
+              "name": "cul:world/biome/tropical"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:tropical_fish",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "cul:world/biome/tropical"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

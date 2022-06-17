@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:armor_stand",
+    "minecraft:wandering_trader",
+    "minecraft:zombie",
+    "minecraft:vindicator",
+    "minecraft:villager"
+  ]
+}

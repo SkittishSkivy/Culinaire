@@ -1,0 +1,5 @@
+execute if block ~ ~1 ~ #cul:air align xyz run summon minecraft:wandering_trader ~0.5 ~-1 ~0.5 {NoAI:1,Silent:1,Tags:["smithed.block","cul.block","cul.block.pot","cul.block.pot.empty","cul.block.pot.ground","cul.block.pot.iron"],HandItems:[{id:"minecraft:leather_horse_armor",Count:1,tag:{CustomModelData:8520000}},{}],Attributes:[{Name:generic.max_health,Base:999}],Offers:{},Health:999,PersistenceRequired:1,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:9999999,ShowParticles:0b}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.670F],HandDropChances:[-327.670F,0.085F]}
+
+execute unless block ~ ~1 ~ #cul:air align xyz run summon minecraft:wandering_trader ~0.5 ~-1 ~0.5 {NoAI:1,Silent:1,Tags:["smithed.block","cul.block","cul.block.pot","cul.block.pot.empty","cul.block.pot.hanging","cul.block.pot.iron"],HandItems:[{id:"minecraft:leather_horse_armor",Count:1,tag:{CustomModelData:8520002}},{}],Attributes:[{Name:generic.max_health,Base:999}],Offers:{},Health:999,PersistenceRequired:1,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:9999999,ShowParticles:0b}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.670F],HandDropChances:[-327.670F,0.085F]}
+
+setblock ~ ~ ~ air

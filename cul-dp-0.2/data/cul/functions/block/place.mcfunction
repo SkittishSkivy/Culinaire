@@ -1,0 +1,12 @@
+execute if data storage smithed.custom_block:main blockApi{id:"cul:pot"} run function cul:block/pot/place/iron
+execute if data storage smithed.custom_block:main blockApi{id:"cul:terracotta_pot"} run function cul:block/pot/place/terracotta
+execute if data storage smithed.custom_block:main blockApi{id:"cul:gold_pot"} run function cul:block/pot/place/gold
+execute if data storage smithed.custom_block:main blockApi{id:"cul:oak_culinary_table"} run function cul:block/culinary_table/place/oak
+execute if data storage smithed.custom_block:main blockApi{id:"cul:birch_culinary_table"} run function cul:block/culinary_table/place/birch
+execute if data storage smithed.custom_block:main blockApi{id:"cul:spruce_culinary_table"} run function cul:block/culinary_table/place/spruce
+execute if data storage smithed.custom_block:main blockApi{id:"cul:jungle_culinary_table"} run function cul:block/culinary_table/place/jungle
+execute if data storage smithed.custom_block:main blockApi{id:"cul:acacia_culinary_table"} run function cul:block/culinary_table/place/acacia
+execute if data storage smithed.custom_block:main blockApi{id:"cul:dark_oak_culinary_table"} run function cul:block/culinary_table/place/dark_oak
+execute if data storage smithed.custom_block:main blockApi{id:"cul:mangrove_culinary_table"} run function cul:block/culinary_table/place/mangrove
+execute if data storage smithed.custom_block:main blockApi{id:"cul:crimson_culinary_table"} run function cul:block/culinary_table/place/crimson
+execute if data storage smithed.custom_block:main blockApi{id:"cul:warped_culinary_table"} run function cul:block/culinary_table/place/warped

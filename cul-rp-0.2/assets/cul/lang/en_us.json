@@ -1,0 +1,77 @@
+{
+  "cul.pack": "Culinaire",
+  "cul.author": "Dizzistitch",
+
+  "cul.item.spruce_spice": "Spruce Spice",
+  "cul.item.acacia_gum": "Acacia Gum",
+  "cul.item.raw_pasta": "Raw Pasta",
+  "cul.item.red_sauce": "Red Sauce Bottle",
+  "cul.item.pale_sauce": "Pale Sauce Bottle",
+  "cul.item.oil": "Oil Bottle",
+  "cul.item.white_bread": "White Bread",
+
+  "cul.item.cheese": "Wheel o' Cheese",
+  "cul.item.skewer": "Mutton Skewer",
+  "cul.item.lobster_roll": "Lobster Roll",
+
+  "cul.item.lobster": "Lobster",
+
+  "cul.item.luck_potion": "Potion of Fortune",
+  "cul.item.unluck_potion": "Potion of Vexing",
+  "cul.item.conduit_power_potion": "Potion of Gills",
+
+  "cul.item.oak_culinary_table": "Oak Culinary Table",
+  "cul.item.birch_culinary_table": "Birch Culinary Table",
+  "cul.item.spruce_culinary_table": "Spruce Culinary Table",
+  "cul.item.jungle_culinary_table": "Jungle Culinary Table",
+  "cul.item.acacia_culinary_table": "Acacia Culinary Table",
+  "cul.item.dark_oak_culinary_table": "Dark Oak Culinary Table",
+  "cul.item.mangrove_culinary_table": "Mangrove Culinary Table",
+  "cul.item.crimson_culinary_table": "Crimson Culinary Table",
+  "cul.item.warped_culinary_table": "Warped Culinary Table",
+  "cul.block.culinary_table": "Culinary Crafting",
+
+  "cul.item.apple_fritters": "Apple Fritters",
+  "cul.item.vegetable_salad": "Vegetable Salad",
+  "cul.item.baked_cod": "Baked Cod",
+
+  "cul.item.pot": "Iron Soup Pot",
+  "cul.item.terracotta_pot": "Terracotta Soup Pot",
+  "cul.item.gold_pot": "Golden Soup Pot",
+  "cul.ui.actionbar.pot_no_heat": "I'll need some heat to cook this...",
+  "cul.ui.actionbar.pot_no_heat_2": "This isn't finished, I need some heat...",
+  "cul.ui.actionbar.pot_no_heat_soul_fire": "This isn't hot enough to cook this...",
+  "cul.ui.actionbar.pot_no_heat_soul_fire_2": "This isn't finished, I need even more heat...",
+  "cul.subtitle.block.pot.add_item": "Item splashes",
+  "cul.subtitle.block.pot.take": "Bowl fills",
+  "cul.subtitle.block.pot.crash": "Pot crashes",
+
+  "cul.item.mooshroom_stew": "Suspicious Mushroom Stew",
+  "cul.item.vegetable_soup": "Vegetable Soup",
+  "cul.item.noodle_soup": "Noodle Soup",
+  "cul.item.fish_soup": "Fish Soup",
+  "cul.item.potato_soup": "Potato Soup",
+  "cul.item.chhese_soup": "Cheese Soup",
+  "cul.item.beef_stew": "Beef Stew",
+  "cul.item.kelp_mush": "Kelp Mush",
+  "cul.item.fish_stew": "Fish Stew",
+  "cul.item.lobster_stew": "Lobster Stew",
+
+  "cul.item.pan": "Cooking Pan",
+  "cul.item.fan": "Paper Fan",
+  "cul.ui.actionbar.pan_flip": "%s+%s to flip pan!",
+  "cul.ui.actionbar.pan_fan": "%s pan with a paper fan!",
+  "cul.ui.actionbar.pan_burned": "It's burned...",
+  "cul.subtitle.block.pan.demand": "Skillet overheats",
+  "cul.subtitle.block.pan.satisfy": "Skillet quells",
+  "cul.subtitle.block.pan.finish": "Skillet simmers",
+  "cul.subtitle.block.pan.burn": "Skillet burns",
+
+  "cul.item.oak_syrup": "Oak Syrup Bottle",
+  "cul.item.birch_syrup": "Birch Syrup Bottle",
+  "cul.item.acacia_syrup": "Acacia Syrup Bottle",
+  "cul.item.tropical_sorbet": "Tropical Sorbet",
+
+  "cul.advancemenet.husbandry.luck": "Feeling Green",
+  "cul.advancemenet.husbandry.luck.desc": "Increase your luck with a food item or potion"
+}

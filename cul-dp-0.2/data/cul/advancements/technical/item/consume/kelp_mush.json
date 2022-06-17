@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "consume": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{cul:{id:\"kelp_mush\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cul:item/consume/kelp_mush"
+  }
+}

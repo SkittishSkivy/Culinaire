@@ -1,0 +1,10 @@
+{
+  "block.pot.add_item": { "subtitle": "cul.subtitle.block.pot.add_item", "sounds": [
+"cul:block/pot/plop0", "cul:block/pot/plop1" ]},
+
+  "block.pot.take": { "subtitle": "cul.subtitle.block.pot.take", "sounds": [
+"cul:block/pot/empty0", "cul:block/pot/empty1" ]},
+
+  "block.pot.crash": { "subtitle": "cul.subtitle.block.pot.crash", "sounds": [
+"cul:block/pot/crash" ]}
+}
