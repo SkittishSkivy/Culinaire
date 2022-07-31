@@ -1,0 +1,2 @@
+![](https://cdn.discordapp.com/attachments/778324851487801367/990653699510648882/Salt_Pillars.png)<br>
+Salt pillars are curious relics found rarely while [[fishing|Fishing]] in any biome. These are quite rare, so if you have not caught any in a while, it is probably just your luck. They come in three different shapes. Over time, they will grow salt crystal clusters, which can be harvested by right-click. This is also affected by the Fortune enchantment. Salt shards can be used in various [[culinary|Cooking]] and [[artisan|Artisan Aging]] goods.
