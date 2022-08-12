@@ -1,1 +1,0 @@
-execute as @s[tag=cul.block.pot] run function cul:block/pot/tick

@@ -1,9 +1,0 @@
-{
-  "parent": "cul:block/pot_empty",
-	"display": {
-		"ground": {
-			"translation": [0, 3, 0],
-			"scale": [0.25, 0.25, 0.25]
-		}
-	}
-}

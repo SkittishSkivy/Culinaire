@@ -1,3 +1,0 @@
-summon armor_stand ~ ~-0.5 ~ {Rotation: [90.0f, 0.0f], Tags: ["smithed.crafter", "cul.block.culinary_table", "cul.block.culinary_table.dark_oak", "smithed.armor_stand"], Invisible: 1b, Marker: 1b, NoGravity: 1b, ArmorItems: [{}, {}, {}, {id: "minecraft:barrel", Count: 1b, tag: {CustomModelData: 8520006}}]}
-
-setblock ~ ~ ~ barrel[facing=down]{CustomName: '{"translate":"block.smithed.crafter.gui","font":"smithed.crafter:gui","color":"white","with":[{"translate":"cul.block.culinary_table","color":"#3F3F3F","font":"minecraft:default"}]}'}

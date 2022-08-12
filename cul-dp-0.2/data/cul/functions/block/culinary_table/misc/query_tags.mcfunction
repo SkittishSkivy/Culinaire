@@ -1,3 +1,0 @@
-execute if predicate cul:item/crafter/tags/oil_ingredients run data modify storage smithed.crafter:main root.temp.item_tag append value "#cul:oil_ingredients"
-execute if predicate cul:item/crafter/tags/bread run data modify storage smithed.crafter:main root.temp.item_tag append value "#cul:bread"
-execute if predicate cul:item/holding/white_bread run data modify storage smithed.crafter:main root.temp.item_tag append value "#cul:bread"

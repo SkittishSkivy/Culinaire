@@ -1,1 +1,0 @@
-execute if predicate cul:item/crafter/advanced_clear/bottle run give @p glass_bottle
