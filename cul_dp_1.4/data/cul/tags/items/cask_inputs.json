@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "minecraft:structure_block",
-    "minecraft:milk_bucket",
-    "minecraft:wheat"
-  ]
-}

@@ -1,1 +1,0 @@
-execute as @s[tag=!cul.entity.deer.doe.panic] if predicate cul:entity/just_hurt run function cul:entity/deer/panic/start

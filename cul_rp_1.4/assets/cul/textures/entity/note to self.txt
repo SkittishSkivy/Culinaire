@@ -1,1 +1,0 @@
-hurt tint is 30 opacity

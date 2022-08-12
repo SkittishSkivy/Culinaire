@@ -1,5 +1,0 @@
-summon armor_stand ~ ~-0.5 ~ {HasVisualFire:0b,Rotation: [0.0f, 0.0f], Tags: ["cul.block", "cul.block.fungal_composter", "cul.block.base.barrel" ], Invisible: 1b, Marker: 1b, NoGravity: 1b, ArmorItems: [{}, {}, {}, {id: "minecraft:barrel", Count: 1b, tag: {CustomModelData: 8520013}}]}
-
-execute unless block ~ ~ ~ minecraft:barrel[facing=down] run setblock ~ ~ ~ barrel[facing=down]{CustomName: '{"translate":"cul.block.fungal_composter.gui","font":"cul:gui","color":"white","with":[{"translate":"cul.block.fungal_composter","color":"#3F3F3F","font":"minecraft:default"}]}'}
-
-execute if block ~ ~ ~ minecraft:barrel[facing=down] run setblock ~ ~ ~ barrel[facing=up]{CustomName: '{"translate":"cul.block.fungal_composter.gui","font":"cul:gui","color":"white","with":[{"translate":"cul.block.fungal_composter","color":"#3F3F3F","font":"minecraft:default"}]}'}

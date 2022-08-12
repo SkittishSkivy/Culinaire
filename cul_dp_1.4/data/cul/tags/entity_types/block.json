@@ -1,8 +1,0 @@
-{
-  "replace": true,
-  "values": [
-    "minecraft:wandering_trader",
-    "minecraft:marker",
-    "minecraft:armor_stand"
-  ]
-}

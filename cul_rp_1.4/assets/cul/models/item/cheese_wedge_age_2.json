@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "cul:item/cheese_wedge_age_2"
-  }
-}
