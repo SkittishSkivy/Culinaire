@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/salt_pillar/balanced"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/salt_pillar/mound"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/salt_pillar/club"
+        }
+      ]
+    }
+  ]
+}

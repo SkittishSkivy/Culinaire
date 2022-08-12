@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/tropical_fish"
+              },
+  "overrides": [
+	{ "predicate": { "custom_model_data": 8520000 }, "model": "cul:item/catfish" }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{cul:{id:\"meat_pizza\",extraSaturation:12,satisfaction:600},CustomModelData:8520027}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "cul.item.meat_pizza",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "cul.pack",
+                  "color": "gold",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

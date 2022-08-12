@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 50,
+          "quality": 2,
+          "name": "minecraft:gameplay/fishing/treasure"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "quality": 1,
+          "name": "cul:gameplay/fishing/salt_pillars"
+        }
+      ]
+    }
+  ]
+}

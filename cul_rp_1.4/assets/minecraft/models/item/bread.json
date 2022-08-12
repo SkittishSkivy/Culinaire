@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/bread"
+              },
+  "overrides": [
+	{ "predicate": { "custom_model_data": 8520000 }, "model": "cul:item/cheese_age_1" },
+	{ "predicate": { "custom_model_data": 8520001 }, "model": "cul:item/cheese_age_2" },
+	{ "predicate": { "custom_model_data": 8520002 }, "model": "cul:item/vegetable_soup" },
+	{ "predicate": { "custom_model_data": 8520003 }, "model": "cul:item/noodle_soup" },
+	{ "predicate": { "custom_model_data": 8520004 }, "model": "cul:item/beef_stew" },
+	{ "predicate": { "custom_model_data": 8520005 }, "model": "minecraft:item/rabbit_stew" },
+	{ "predicate": { "custom_model_data": 8520006 }, "model": "cul:item/fish_stew" },
+	{ "predicate": { "custom_model_data": 8520007 }, "model": "cul:item/lobster_stew" },
+	{ "predicate": { "custom_model_data": 8520008 }, "model": "cul:item/apple_fritters" },
+	{ "predicate": { "custom_model_data": 8520009 }, "model": "cul:item/vegetable_salad" },
+	{ "predicate": { "custom_model_data": 8520010 }, "model": "cul:item/cod_platter" },
+	{ "predicate": { "custom_model_data": 8520011 }, "model": "cul:item/spaghetti" },
+	{ "predicate": { "custom_model_data": 8520012 }, "model": "cul:item/beetroot_spaghetti" },
+	{ "predicate": { "custom_model_data": 8520013 }, "model": "cul:item/cheese_spaghetti" },
+	{ "predicate": { "custom_model_data": 8520014 }, "model": "cul:item/pufferfish_platter" },
+	{ "predicate": { "custom_model_data": 8520015 }, "model": "cul:item/sweet_salad" },
+	{ "predicate": { "custom_model_data": 8520016 }, "model": "cul:item/mushroom_salad" },
+	{ "predicate": { "custom_model_data": 8520017 }, "model": "cul:item/cheese_soup" },
+	{ "predicate": { "custom_model_data": 8520018 }, "model": "cul:item/onigiri" },
+	{ "predicate": { "custom_model_data": 8520019 }, "model": "cul:item/berry_onigiri" },
+	{ "predicate": { "custom_model_data": 8520020 }, "model": "cul:item/omlet" },
+	{ "predicate": { "custom_model_data": 8520021 }, "model": "cul:item/clam_chowder" },
+	{ "predicate": { "custom_model_data": 8520022 }, "model": "cul:item/beef_empanada" },
+	{ "predicate": { "custom_model_data": 8520023 }, "model": "cul:item/cheese_empanada" },
+	{ "predicate": { "custom_model_data": 8520024 }, "model": "cul:item/cooked_venison" },
+	{ "predicate": { "custom_model_data": 8520025 }, "model": "cul:item/fried_rice" },
+	{ "predicate": { "custom_model_data": 8520026 }, "model": "cul:item/vegetable_fried_rice" },
+	{ "predicate": { "custom_model_data": 8520027 }, "model": "cul:item/meat_pizza" },
+	{ "predicate": { "custom_model_data": 8520028 }, "model": "cul:item/vegetable_pizza" }
+  ]
+}

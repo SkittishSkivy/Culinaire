@@ -1,0 +1,1 @@
+execute as @s[tag=!cul.block.salt_pillar.grown] if predicate cul:block/salt_pillar/grow run function cul:block/salt_pillar/grow

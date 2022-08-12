@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "ooh"
+  ],
+  "key": {
+    "o": {
+      "item": "minecraft:quartz"
+    },
+    "h": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

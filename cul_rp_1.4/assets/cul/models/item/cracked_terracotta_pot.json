@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cul:item/cracked_terracotta_pot"
+  }
+}

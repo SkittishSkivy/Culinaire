@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spectral_arrow",
+          "conditions": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "direct_entity": {
+                  "type": "minecraft:spectral_arrow"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:damage_source_properties",
+                "predicate": {
+                  "direct_entity": {
+                    "nbt": "{pickup:2b}"
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "direct_entity": {
+                  "type": "minecraft:arrow",
+                   "nbt": "{PierceLevel:0b}"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

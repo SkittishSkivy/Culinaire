@@ -1,0 +1,30 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4,
+        "\uc000": -12,
+        "\uc001": -166
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "cul:gui/cask.png",
+      "ascent": 14,
+      "height": 176.0,
+      "chars": [
+        "\uc002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "cul:gui/fungal_composter.png",
+      "ascent": 14,
+      "height": 176.0,
+      "chars": [
+        "\uc003"
+      ]
+    }
+  ]
+}

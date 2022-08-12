@@ -1,0 +1,2 @@
+execute if predicate cul:item/holding/milk_bucket run item replace entity @s weapon.mainhand with minecraft:bucket
+execute if predicate cul:item/holding/pail_milk run loot replace entity @s weapon.mainhand loot cul:item/pail

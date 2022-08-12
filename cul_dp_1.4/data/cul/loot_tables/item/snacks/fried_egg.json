@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{cul:{id:\"fried_egg\",extraSaturation:1},CustomModelData:8520011}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "cul.item.fried_egg",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "cul.pack",
+                  "color": "gold",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

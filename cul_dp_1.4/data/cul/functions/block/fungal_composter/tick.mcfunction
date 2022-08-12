@@ -1,0 +1,1 @@
+execute if predicate cul:block/fungal_composter/invalid_items run function cul:block/fungal_composter/manage_invalid_items

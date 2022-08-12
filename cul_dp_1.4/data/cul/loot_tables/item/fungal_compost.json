@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{cul:{id:\"fungal_compost\"},CustomModelData:8520000}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "cul.item.fungal_compost",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "cul.pack",
+                  "color": "gold",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
