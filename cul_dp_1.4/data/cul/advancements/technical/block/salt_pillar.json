@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "click": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"cul.block.salt_pillar.grown\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cul:block/salt_pillar/interact/start"
+  }
+}

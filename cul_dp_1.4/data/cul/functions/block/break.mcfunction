@@ -1,0 +1,11 @@
+execute if entity @s[tag=cul.block.culinary_table.oak] run loot spawn ~ ~ ~ loot cul:item/oak_culinary_table
+execute if entity @s[tag=cul.block.culinary_table.birch] run loot spawn ~ ~ ~ loot cul:item/birch_culinary_table
+execute if entity @s[tag=cul.block.culinary_table.spruce] run loot spawn ~ ~ ~ loot cul:item/spruce_culinary_table
+execute if entity @s[tag=cul.block.culinary_table.jungle] run loot spawn ~ ~ ~ loot cul:item/jungle_culinary_table
+execute if entity @s[tag=cul.block.culinary_table.acacia] run loot spawn ~ ~ ~ loot cul:item/acacia_culinary_table
+execute if entity @s[tag=cul.block.culinary_table.dark_oak] run loot spawn ~ ~ ~ loot cul:item/dark_oak_culinary_table
+execute if entity @s[tag=cul.block.culinary_table.mangrove] run loot spawn ~ ~ ~ loot cul:item/mangrove_culinary_table
+execute if entity @s[tag=cul.block.culinary_table.crimson] run loot spawn ~ ~ ~ loot cul:item/crimson_culinary_table
+execute if entity @s[tag=cul.block.culinary_table.warped] run loot spawn ~ ~ ~ loot cul:item/warped_culinary_table
+execute if entity @s[tag=cul.block.cask] run loot spawn ~ ~ ~ loot cul:item/cask
+execute if entity @s[tag=cul.block.fungal_composter] run loot spawn ~ ~ ~ loot cul:item/fungal_composter

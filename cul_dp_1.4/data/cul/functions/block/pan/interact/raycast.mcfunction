@@ -1,0 +1,2 @@
+execute if entity @e[type=minecraft:wandering_trader,tag=cul.block.pan,distance=..1] as @e[type=minecraft:wandering_trader,sort=nearest,limit=1,tag=cul.block.pan] run function cul:block/pan/interact/as_pan
+execute if entity @s[distance=..6] unless entity @e[tag=cul.block.pan,distance=..1] positioned ^ ^ ^0.25 run function cul:block/pan/interact/raycast

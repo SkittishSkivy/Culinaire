@@ -1,0 +1,1 @@
+execute if score @s cul.coas matches 1.. run function cul:item/coas

@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "cul:block/onion_domestic_ungrown"
+  },
+	"display": {
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 7.4, -6]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [0, -4.2, -0.75],
+			"scale": [1.65, 1.65, 1.65]
+		}
+	}
+}

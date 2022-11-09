@@ -1,0 +1,24 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "cul:item/holding/fruit_juice"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cul:item/holding/pail_milk"
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "tag": "cul:cask_inputs"
+          }
+        }
+      }
+    }
+  ]
+}

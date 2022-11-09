@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP ",
+    "CC ",
+    "WW "
+  ],
+  "key": {
+    "P": {
+      "tag": "cul:polished_stone"
+    },
+    "C": {
+      "item": "minecraft:bowl"
+    },
+    "W": {
+      "item": "minecraft:crimson_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

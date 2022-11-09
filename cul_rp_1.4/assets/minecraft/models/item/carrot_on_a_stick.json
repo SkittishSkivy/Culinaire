@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+              },
+  "overrides": [
+	{ "predicate": { "custom_model_data": 8520000 }, "model": "cul:item/pail" },
+	{ "predicate": { "custom_model_data": 8520001 }, "model": "cul:item/pail_water" },
+	{ "predicate": { "custom_model_data": 8520002 }, "model": "cul:item/pail_milk" },
+	{ "predicate": { "custom_model_data": 8520003 }, "model": "cul:item/scythe" }
+  ]
+}

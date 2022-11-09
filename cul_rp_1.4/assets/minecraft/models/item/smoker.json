@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:block/smoker",
+  "overrides": [
+	{ "predicate": { "custom_model_data": 8520000 }, "model": "cul:item/pot" },
+	{ "predicate": { "custom_model_data": 8520001 }, "model": "cul:item/terracotta_pot" },
+	{ "predicate": { "custom_model_data": 8520002 }, "model": "cul:item/gold_pot" },
+	{ "predicate": { "custom_model_data": 8520003 }, "model": "cul:item/salt_pillar_balanced" },
+	{ "predicate": { "custom_model_data": 8520004 }, "model": "cul:item/salt_pillar_mound" },
+	{ "predicate": { "custom_model_data": 8520005 }, "model": "cul:item/salt_pillar_club" },
+	{ "predicate": { "custom_model_data": 8520006 }, "model": "cul:item/salt_pillar_relic" },
+	{ "predicate": { "custom_model_data": 8520007 }, "model": "cul:item/clam_east" },
+	{ "predicate": { "custom_model_data": 8520008 }, "model": "cul:item/clam_west" },
+	{ "predicate": { "custom_model_data": 8520009 }, "model": "cul:item/pan" },
+	{ "predicate": { "custom_model_data": 8520010 }, "model": "cul:item/chipped_terracotta_pot" },
+	{ "predicate": { "custom_model_data": 8520011 }, "model": "cul:item/cracked_terracotta_pot" },
+	{ "predicate": { "custom_model_data": 8520012 }, "model": "cul:item/hotplate" },
+	{ "predicate": { "custom_model_data": 8520013 }, "model": "cul:item/quartz_pan" }
+  ]
+}

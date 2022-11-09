@@ -1,0 +1,41 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:campfire",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:soul_campfire",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:furnace",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:blast_furnace",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "tag": "cul:always_heat"
+        }
+      }
+    }
+  ]
+}

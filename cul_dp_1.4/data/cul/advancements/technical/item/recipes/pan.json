@@ -1,0 +1,17 @@
+{
+  "parent": "cul:technical/item/recipes/root",
+  "rewards": {
+    "function": "cul:entity/player/recipe",
+    "loot": [
+      "cul:item/pan"
+    ]
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "cul:pan"
+      }
+    }
+  }
+}

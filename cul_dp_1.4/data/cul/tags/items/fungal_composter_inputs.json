@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#cul:compostable_fish",
+    "#cul:raw_meats",
+    "minecraft:rotten_flesh"
+  ]
+}
