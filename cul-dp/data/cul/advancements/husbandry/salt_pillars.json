@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:8520006}"
+    },
+    "title": {
+      "translate": "cul.advancement.husbandry.salt_pillars"
+    },
+    "description": [
+      {
+        "translate": "cul.advancement.husbandry.salt_pillars.desc"
+      },
+      {
+        "text": "\n\n"
+      },
+      {
+        "translate": "cul.pack",
+        "color": "#9CED21",
+        "italic": "true"
+      }
+    ],
+    "frame": "goal"
+  },
+  "parent": "minecraft:husbandry/fishy_business",
+  "criteria": {
+    "balanced": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{cul:{id:\"salt_pillar\",variant:\"balanced\"}}"
+          }
+        ]
+      }
+    },
+    "mound": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{cul:{id:\"salt_pillar\",variant:\"mound\"}}"
+          }
+        ]
+      }
+    },
+    "club": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{cul:{id:\"salt_pillar\",variant:\"club\"}}"
+          }
+        ]
+      }
+    },
+    "log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{cul:{id:\"salt_pillar\",variant:\"log\"}}"
+          }
+        ]
+      }
+    },
+    "turtleback": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{cul:{id:\"salt_pillar\",variant:\"turtleback\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

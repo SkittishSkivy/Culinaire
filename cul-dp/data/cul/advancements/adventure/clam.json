@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:smoker",
+      "nbt": "{CustomModelData:8520007}"
+    },
+    "title": {
+      "translate": "cul.advancement.adventure.clam"
+    },
+    "description": [
+      {
+        "translate": "cul.advancement.adventure.clam.desc"
+      },
+      {
+        "text": "\n\n"
+      },
+      {
+        "translate": "cul.pack",
+        "color": "#9CED21",
+        "italic": "true"
+      }
+    ],
+    "frame": "task"
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"cul.block.clam\",\"cul.block.natural_gen\"]}"
+        }
+      }
+    }
+  }
+}

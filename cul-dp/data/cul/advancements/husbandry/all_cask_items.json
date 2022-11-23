@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomPotionColor:16777215,CustomModelData:8520002}"
+    },
+    "title": {
+      "translate": "cul.advancement.husbandry.all_cask_items"
+    },
+    "description": [
+      {
+        "translate": "cul.advancement.husbandry.all_cask_items.desc"
+      },
+      {
+        "text": "\n\n"
+      },
+      {
+        "translate": "cul.pack",
+        "color": "#9CED21",
+        "italic": "true"
+      }
+    ],
+    "frame": "goal"
+  },
+  "parent": "cul:husbandry/cheese",
+  "criteria": {
+    "cheese": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bread"
+            ],
+            "nbt": "{cul:{id:\"cheese\",age:2}}"
+          }
+        ]
+      }
+    },
+    "ale": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "nbt": "{cul:{id:\"ale\",age:2}}"
+          }
+        ]
+      }
+    },
+    "pickled_beetroot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cookie"
+            ],
+            "nbt": "{cul:{id:\"pickled_beetroot\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

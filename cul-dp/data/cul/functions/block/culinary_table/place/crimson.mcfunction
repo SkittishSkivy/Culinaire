@@ -1,0 +1,5 @@
+summon armor_stand ~ ~-0.5 ~ {HasVisualFire:0b,Rotation: [90.0f, 0.0f], Tags: ["nucleus.entity", "smithed.crafter", "cul.block.culinary_table", "cul.block.culinary_table.crimson", "smithed.armor_stand"], Invisible: 1b, Marker: 1b, NoGravity: 1b, ArmorItems: [{}, {}, {}, {id: "minecraft:barrel", Count: 1b, tag: {CustomModelData: 8520008}}]}
+
+execute unless block ~ ~ ~ minecraft:barrel[facing=down] run setblock ~ ~ ~ barrel[facing=down]{CustomName: '{"translate":"block.smithed.crafter.gui","font":"smithed.crafter:gui","color":"white","with":[{"translate":"cul.block.culinary_table","color":"#3F3F3F","font":"minecraft:default"}]}'}
+
+execute if block ~ ~ ~ minecraft:barrel[facing=down] run setblock ~ ~ ~ barrel[facing=up]{CustomName: '{"translate":"block.smithed.crafter.gui","font":"smithed.crafter:gui","color":"white","with":[{"translate":"cul.block.culinary_table","color":"#3F3F3F","font":"minecraft:default"}]}'}

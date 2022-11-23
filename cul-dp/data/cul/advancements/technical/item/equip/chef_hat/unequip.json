@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "pick_up_chef_hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{cul:{id:\"chef_hat\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "cul:item/chef_hat/unequip/main"
+  }
+}

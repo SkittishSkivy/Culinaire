@@ -1,0 +1,1 @@
+execute positioned ~ ~-1 ~ unless entity @a[distance=..1,scores={cul.tea.type=2}] run function cul:block/glow/kill

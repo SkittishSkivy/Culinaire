@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{cul:{id:\"potato_mochi\",extraSaturation:3,satisfaction:50,foodGroups:\"vegetable\"},CustomModelData:8520006}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "cul.item.potato_mochi",
+                  "color": "white",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "cul.pack",
+                  "color": "#9CED21",
+                  "italic": "true"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

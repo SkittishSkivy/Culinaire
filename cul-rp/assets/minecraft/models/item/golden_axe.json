@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/golden_axe"
+              },
+  "overrides": [
+	{ "predicate": { "custom_model_data": 8520000 }, "model": "cul:item/crab_axe" }
+  ]
+}

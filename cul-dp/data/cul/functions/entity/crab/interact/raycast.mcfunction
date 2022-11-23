@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:wandering_trader,sort=nearest,limit=1,tag=cul.entity.crab,distance=..1] if data storage cul:storage root.temp{item:{id:"minecraft:water_bucket"}} run function cul:entity/crab/interact/as_crab
+execute if entity @s[distance=..6] unless entity @e[type=wandering_trader,tag=cul.entity.crab,distance=..1] positioned ^ ^ ^0.25 run function cul:entity/crab/interact/raycast

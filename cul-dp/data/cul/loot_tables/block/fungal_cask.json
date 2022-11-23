@@ -1,0 +1,90 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/fungal_cask",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "cul:storage"
+              },
+              "ops": [
+                {
+                  "source": "root.temp.scoreState1",
+                  "target": "BlockEntityTag.Items[{Slot:0b}].tag.cul.state",
+                  "op": "replace"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "cul.dummy": {
+                      "min": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "cul:storage"
+              },
+              "ops": [
+                {
+                  "source": "root.temp.scoreState2",
+                  "target": "BlockEntityTag.Items[{Slot:0b}].tag.cul.fungus",
+                  "op": "replace"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "cul.dummy_2": {
+                      "min": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "cul:storage"
+              },
+              "ops": [
+                {
+                  "source": "root.temp.scoreState3",
+                  "target": "BlockEntityTag.Items[{Slot:0b}].tag.cul.count",
+                  "op": "replace"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "cul.dummy_3": {
+                      "min": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

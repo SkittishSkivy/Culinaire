@@ -1,0 +1,9 @@
+{
+  "parent": "cul:block/salt_pillar/log",
+	"display": {
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cookie",
+      "nbt": "{CustomModelData:8520000}"
+    },
+    "title": {
+      "translate": "cul.advancement.husbandry.cheese"
+    },
+    "description": {[
+      {
+        "translate": "cul.advancement.husbandry.cheese.desc"
+      },
+      {
+        "text": "\n\n"
+      },
+      {
+        "translate": "cul.pack",
+        "color": "#9CED21",
+        "italic": "true"
+      }
+    ],
+    "frame": "task"
+  },
+  "parent": "cul:husbandry/fungal_cask",
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{cul:{id:\"cheese\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

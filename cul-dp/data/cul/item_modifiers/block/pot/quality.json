@@ -1,0 +1,88 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "translate": "cul.item.dish.quality.-1",
+      "with": [
+        {
+          "nbt": "root.temp.name",
+          "storage": "cul:storage",
+          "interpret": true,
+          "color": "gray"
+        }
+      ],
+      "color": "gray",
+      "italic": false
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "cul.pot.quality": {
+            "max": -1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "translate": "cul.item.dish.quality.1",
+      "with": [
+        {
+          "nbt": "root.temp.name",
+          "storage": "cul:storage",
+          "interpret": true,
+          "color": "yellow"
+        }
+      ],
+      "color": "yellow",
+      "italic": false
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "cul.pot.quality": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "translate": "cul.item.dish.quality.3",
+      "with": [
+        {
+          "nbt": "root.temp.name",
+          "storage": "cul:storage",
+          "interpret": true,
+          "color": "green"
+        }
+      ],
+      "color": "green",
+      "italic": false
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "cul.pot.quality": {
+            "min": 3,
+            "max": 9
+          }
+        }
+      }
+    ]
+  }
+]

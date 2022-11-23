@@ -1,0 +1,2 @@
+execute if data storage cul:storage root.temp{item:{id:"minecraft:beetroot"}} run scoreboard players set @s cul.dummy 12
+execute if data storage cul:storage root.temp{item:{id:"minecraft:beetroot"}} run scoreboard players set @s cul.dummy_3 1

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mushroom_stew"
+    },
+    "title": {
+      "translate": "cul.advancement.husbandry.pot"
+    },
+    "description": [
+      {
+        "translate": "cul.advancement.husbandry.pot.desc"
+      },
+      {
+        "text": "\n\n"
+      },
+      {
+        "translate": "cul.pack",
+        "color": "#9CED21",
+        "italic": "true"
+      }
+    ],
+    "frame": "task"
+  },
+  "parent": "cul:husbandry/culinary_table",
+  "criteria": {
+    "no": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+              },
+  "overrides": [
+	{ "predicate": { "custom_model_data": 8520000 }, "model": "cul:item/pail" },
+	{ "predicate": { "custom_model_data": 8520001 }, "model": "cul:item/pail_water" },
+	{ "predicate": { "custom_model_data": 8520002 }, "model": "cul:item/pail_milk" },
+	{ "predicate": { "custom_model_data": 8520003 }, "model": "cul:item/scythe" },
+	{ "predicate": { "custom_model_data": 8520004 }, "model": "cul:item/chef_hat" },
+	{ "predicate": { "custom_model_data": 8520005 }, "model": "cul:item/crab_bucket" },
+	{ "predicate": { "custom_model_data": 8520006 }, "model": "cul:item/crab_claw" },
+	{ "predicate": { "custom_model_data": 8520007 }, "model": "cul:item/tea" },
+	{ "predicate": { "custom_model_data": 8520008 }, "model": "cul:item/glow_tea" },
+	{ "predicate": { "custom_model_data": 8520009 }, "model": "cul:item/seagrass_tea" },
+	{ "predicate": { "custom_model_data": 8520010 }, "model": "cul:item/hot_cocoa" },
+	{ "predicate": { "custom_model_data": 8520011 }, "model": "cul:item/squid_pekoe" }
+  ]
+}

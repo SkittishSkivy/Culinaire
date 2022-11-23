@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "#cul:entity",
+    "#cul:block"
+  ]
+}

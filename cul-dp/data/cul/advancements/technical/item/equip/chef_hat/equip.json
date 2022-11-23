@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "equip_chef_hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:leather_helmet"
+              ],
+              "nbt": "{cul:{id:\"chef_hat\"}}"
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_helmet"
+            ],
+            "nbt": "{cul:{id:\"chef_hat\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "cul:item/chef_hat/equip"
+  }
+}

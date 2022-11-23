@@ -1,0 +1,1 @@
+execute as @s[tag=cul.entity.crab.animation.emerge] run function cul:entity/crab/animations/emerge/tick

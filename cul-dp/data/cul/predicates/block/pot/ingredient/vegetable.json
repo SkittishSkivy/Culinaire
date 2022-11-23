@@ -1,0 +1,30 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "tag": "cul:pot/vegetable"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:cookie"
+            ],
+            "nbt": "{cul:{id:\"pickled_beetroot\"}}"
+          }
+        }
+      }
+    }
+  ]
+}

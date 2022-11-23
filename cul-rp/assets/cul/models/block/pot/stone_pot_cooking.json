@@ -1,0 +1,107 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"texture_size": [32, 32],
+	"textures": {
+		"particle": "cul:block/pot/stone_pot"
+	},
+	"elements": [
+		{
+			"name": "Pot",
+			"from": [1, 0, 1],
+			"to": [15, 9, 15],
+			"faces": {
+				"north": {"uv": [0, 0, 7, 4.5], "texture": "#particle"},
+				"east": {"uv": [0, 0, 7, 4.5], "texture": "#particle"},
+				"south": {"uv": [0, 0, 7, 4.5], "texture": "#particle"},
+				"west": {"uv": [0, 0, 7, 4.5], "texture": "#particle"},
+				"up": {"uv": [0, 4.5, 7, 11.5], "texture": "#particle"},
+				"down": {"uv": [6, 4, 12, 10], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Pot Inner",
+			"from": [12, 9, 12],
+			"to": [4, 3, 4],
+			"faces": {
+				"north": {"uv": [0, 11.5, 4, 14.5], "rotation": 180, "texture": "#particle"},
+				"east": {"uv": [0, 11.5, 4, 14.5], "rotation": 180, "texture": "#particle"},
+				"south": {"uv": [0, 11.5, 4, 14.5], "rotation": 180, "texture": "#particle"},
+				"west": {"uv": [0, 11.5, 4, 14.5], "rotation": 180, "texture": "#particle"},
+				"up": {"uv": [0, 11.5, 4, 15.5], "texture": "#particle"},
+				"down": {"uv": [0, 10, 0, 10], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Nub",
+			"from": [15, 6, 7],
+			"to": [17, 8, 9],
+			"faces": {
+				"north": {"uv": [4, 12.5, 5, 11.5], "rotation": 90, "texture": "#particle"},
+				"east": {"uv": [4, 12.5, 5, 11.5], "rotation": 90, "texture": "#particle"},
+				"south": {"uv": [4, 12.5, 5, 11.5], "rotation": 90, "texture": "#particle"},
+				"west": {"uv": [4, 12.5, 5, 11.5], "rotation": 90, "texture": "#particle"},
+				"up": {"uv": [4, 12.5, 5, 11.5], "rotation": 90, "texture": "#particle"},
+				"down": {"uv": [4, 12.5, 5, 11.5], "rotation": 90, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Nub",
+			"from": [-1, 6, 7],
+			"to": [1, 8, 9],
+			"faces": {
+				"north": {"uv": [4, 12.5, 5, 11.5], "rotation": 90, "texture": "#particle"},
+				"east": {"uv": [4, 12.5, 5, 11.5], "rotation": 90, "texture": "#particle"},
+				"south": {"uv": [4, 12.5, 5, 11.5], "rotation": 90, "texture": "#particle"},
+				"west": {"uv": [4, 12.5, 5, 11.5], "rotation": 90, "texture": "#particle"},
+				"up": {"uv": [4, 12.5, 5, 11.5], "rotation": 90, "texture": "#particle"},
+				"down": {"uv": [4, 12.5, 5, 11.5], "rotation": 90, "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Fluid",
+			"from": [4, 6.5, 4],
+			"to": [12, 6.5, 12],
+			"faces": {
+				"north": {"uv": [1, 0, 9, 0], "texture": "#particle"},
+				"east": {"uv": [1, 0, 9, 0], "texture": "#particle"},
+				"south": {"uv": [1, 0, 9, 0], "texture": "#particle"},
+				"west": {"uv": [1, 0, 9, 0], "texture": "#particle"},
+				"up": {"uv": [7, 0, 11, 4], "texture": "#particle", "tintindex": 0},
+				"down": {"uv": [7, 0, 7, 0], "texture": "#particle"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 7.4, -6]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"rotation": [-3.94, -0.32, -169.01],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	}
+}

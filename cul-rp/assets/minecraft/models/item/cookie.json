@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/cookie"
+              },
+  "overrides": [
+	{ "predicate": { "custom_model_data": 8520000 }, "model": "cul:item/cheese_age_0" },
+	{ "predicate": { "custom_model_data": 8520001 }, "model": "minecraft:item/beetroot_soup" },
+	{ "predicate": { "custom_model_data": 8520002 }, "model": "minecraft:item/mushroom_stew" },
+	{ "predicate": { "custom_model_data": 8520003 }, "model": "cul:item/pot_foods/fish_sticks" },
+	{ "predicate": { "custom_model_data": 8520004 }, "model": "cul:item/pot_foods/mince_muffin" },
+	{ "predicate": { "custom_model_data": 8520005 }, "model": "cul:item/pot_foods/skewer" },
+	{ "predicate": { "custom_model_data": 8520006 }, "model": "cul:item/pot_foods/potato_mochi" },
+	{ "predicate": { "custom_model_data": 8520008 }, "model": "cul:item/cheese_wedge_age_0" },
+	{ "predicate": { "custom_model_data": 8520009 }, "model": "cul:item/cheese_wedge_age_1" },
+	{ "predicate": { "custom_model_data": 8520010 }, "model": "cul:item/cheese_wedge_age_2" },
+	{ "predicate": { "custom_model_data": 8520011 }, "model": "cul:item/fried_egg" },
+	{ "predicate": { "custom_model_data": 8520012 }, "model": "cul:item/fish_roll" },
+	{ "predicate": { "custom_model_data": 8520013 }, "model": "cul:item/venison" },
+	{ "predicate": { "custom_model_data": 8520014 }, "model": "cul:item/pickled_beetroot" },
+	{ "predicate": { "custom_model_data": 8520015 }, "model": "cul:item/crab" },
+	{ "predicate": { "custom_model_data": 8520016 }, "model": "cul:item/dipped_cookie" }
+  ]
+}

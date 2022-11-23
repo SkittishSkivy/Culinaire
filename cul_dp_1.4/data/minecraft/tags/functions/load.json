@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "cul:technical/load",
-    "cul:technical/tick_1s",
-    "cul:technical/tick_10s"
-  ]
-}

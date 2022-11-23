@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:barrel",
+      "nbt": "{CustomModelData:8520010}"
+    },
+    "title": {
+      "translate": "cul.advancement.husbandry.fungal_cask"
+    },
+    "description": [
+      {
+        "translate": "cul.advancement.husbandry.fungal_cask.desc"
+      },
+      {
+        "text": "\n\n"
+      },
+      {
+        "translate": "cul.pack",
+        "color": "#9CED21",
+        "italic": "true"
+      }
+    ],
+    "frame": "task"
+  },
+  "parent": "cul:husbandry/culinary_table",
+  "criteria": {
+    "warped": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "nbt": "{cul:{id:\"fungal_cask\"}}"
+        }
+      }
+    }
+  }
+}

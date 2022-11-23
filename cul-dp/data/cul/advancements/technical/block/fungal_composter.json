@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "normal": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:barrel"
+            ],
+            "nbt": "{Lock:\"fungal_composter___________________________________\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cul:block/fungal_composter/interact/start"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "consume": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{cul:{extraSaturation:15}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cul:item/consume/extra_saturation/15"
+  }
+}

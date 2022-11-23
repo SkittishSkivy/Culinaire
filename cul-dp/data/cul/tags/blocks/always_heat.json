@@ -1,0 +1,12 @@
+{
+  "values": [
+    "minecraft:lava",
+    "minecraft:lava_cauldron",
+    "minecraft:fire",
+    "minecraft:soul_fire",
+    "minecraft:magma_block",
+    "minecraft:furnace",
+    "minecraft:smoker",
+    "minecraft:blast_furnace"
+  ]
+}

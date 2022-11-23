@@ -1,0 +1,35 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "cul.dummy": {
+          "min": 1,
+          "max": 4
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "cul.dummy": {
+          "min": 7,
+          "max": 9
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "cul.dummy": {
+          "min": 12,
+          "max": 14
+        }
+      }
+    }
+  ]
+}

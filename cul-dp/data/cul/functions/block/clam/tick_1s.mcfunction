@@ -1,0 +1,3 @@
+execute if predicate cul:random/1_percent if block ~ ~1 ~ #cul:underwater unless data entity @s[tag=cul.block.clam.closed] HandItems[1].Count run loot replace entity @s weapon.offhand loot cul:gameplay/fishing/fish
+
+execute if predicate cul:random/1_percent unless block ~ ~1 ~ #cul:underwater unless data entity @s[tag=cul.block.clam.closed] HandItems[1].Count run loot replace entity @s weapon.offhand loot cul:item/salt

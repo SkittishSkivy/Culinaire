@@ -1,0 +1,2 @@
+execute if entity @s[distance=..6] unless block ^ ^ ^.25 #cul:raycast_ignore align xyz positioned ~0.5 ~0.1 ~0.5 run function cul:item/crab_bucket/end
+execute if entity @s[distance=..6] positioned ^ ^ ^.25 if block ~ ~ ~ #cul:raycast_ignore if data storage cul:storage root.temp{success:0b} run function cul:item/crab_bucket/raycast

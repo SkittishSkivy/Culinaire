@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ barrel align xyz positioned ~0.5 ~ ~0.5 as @e[type=minecraft:armor_stand,tag=cul.block.fungal_cask,distance=..0.2,sort=nearest,limit=1] run function cul:block/fungal_cask/interact/end
+execute if entity @s[distance=..6] unless block ~ ~ ~ barrel positioned ^ ^ ^0.25 run function cul:block/fungal_cask/interact/raycast

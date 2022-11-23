@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "consume": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{cul:{mug_drink:{\"type\":\"squid_pekoe\"}}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cul:item/consume/mug_drink/squid_pekoe"
+  }
+}

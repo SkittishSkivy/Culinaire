@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/dishes/beetroot_soup"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/dishes/potato_soup"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/dishes/vegetable_soup"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/dishes/noodle_soup"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/dishes/kelp_mush"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/dishes/fish_stew"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/dishes/crab_stew"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/dishes/mushroom_stew"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/dishes/meat_stew"
+        }
+      ]
+    }
+  ]
+}

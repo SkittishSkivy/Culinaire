@@ -1,0 +1,1 @@
+execute as @s[tag=cul.block.culinary_table] run function cul:block/culinary_table/recipes/shaped

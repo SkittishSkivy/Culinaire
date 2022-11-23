@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/artisan/ale/age_0",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "cul.dummy"
+              },
+              "range": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/artisan/ale/age_1",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "cul.dummy"
+              },
+              "range": 9
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/artisan/ale/age_2",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "cul.dummy"
+              },
+              "range": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/pot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/terracotta_pot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "cul:item/gold_pot"
+        }
+      ]
+    }
+  ]
+}

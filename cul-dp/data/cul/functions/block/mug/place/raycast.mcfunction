@@ -1,0 +1,2 @@
+execute if entity @s[distance=..5.5] unless block ^ ^ ^.25 #cul:raycast_ignore unless entity @e[type=#cul:block,tag=smithed.block,distance=..1] align xyz unless entity @e[type=wandering_trader,tag=cul.block.mug,distance=..1.5] run function cul:block/mug/place/end
+execute if entity @s[distance=..5.5] positioned ^ ^ ^.25 if block ~ ~ ~ #cul:raycast_ignore run function cul:block/mug/place/raycast

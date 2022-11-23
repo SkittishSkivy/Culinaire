@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "consume": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{cul:{mug_drink:{\"type\":\"hot_cocoa\"}}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cul:item/consume/mug_drink/hot_cocoa"
+  }
+}

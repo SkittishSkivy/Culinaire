@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "SDS",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "tag": "cul:fungal_planks"
+    },
+    "S": {
+      "tag": "cul:fungal_plank_slabs"
+    },
+    "D": {
+      "tag": "cul:fungi"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

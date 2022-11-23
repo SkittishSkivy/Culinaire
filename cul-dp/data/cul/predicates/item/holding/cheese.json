@@ -1,0 +1,42 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:cookie",
+              "minecraft:bread"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "nbt": "{cul:{id:\"cheese\"}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:cookie"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            },
+            "nbt": "{cul:{id:\"cheese_wedge\"}}"
+          }
+        }
+      }
+    }
+  ]
+}

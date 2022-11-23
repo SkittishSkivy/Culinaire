@@ -1,0 +1,2 @@
+execute if entity @e[type=minecraft:wandering_trader,tag=cul.block.mug,distance=..1] as @e[type=minecraft:wandering_trader,sort=nearest,limit=1,tag=cul.block.mug] run function cul:block/mug/interact/as_mug
+execute if entity @s[distance=..6] unless entity @e[type=wandering_trader,tag=cul.block.mug,distance=..1] positioned ^ ^ ^0.25 run function cul:block/mug/interact/raycast

@@ -1,0 +1,2 @@
+execute if predicate cul:item/holding/water_bucket run item replace entity @s weapon.mainhand with minecraft:bucket
+execute if predicate cul:item/holding/water_bottle run item replace entity @s weapon.mainhand with minecraft:glass_bottle

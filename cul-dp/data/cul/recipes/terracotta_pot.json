@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ncn",
+    "nnn"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:brick"
+    },
+    "c": {
+      "item": "minecraft:bucket"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

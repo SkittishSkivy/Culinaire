@@ -1,0 +1,2 @@
+execute if entity @s[distance=..6] positioned ^ ^ ^.25 if block ~ ~ ~ minecraft:grindstone run function cul:item/crab_claw/end
+execute if entity @s[distance=..6] positioned ^ ^ ^.25 if block ~ ~ ~ #cul:raycast_ignore run function cul:item/crab_claw/raycast

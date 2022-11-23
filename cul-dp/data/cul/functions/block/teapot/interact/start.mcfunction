@@ -1,0 +1,1 @@
+advancement revoke @s only cul:technical/block/teapot
