@@ -1,1 +1,2 @@
-# Culinaire
+# About
+Culinaire is a datapack that adds new, immersive cooking mechanics. With a cooking pot inspired by Don't Starve, aging cask for making cheese and ale, and brand new mobs to feast with, and on...
